@@ -45,7 +45,7 @@ git checkout -b other-branch
 git checkout master
 
 # Re-apply the changes you stashed earlier.
-git stash apply
+git stash pop
 
 # You can stash multiple sets of changes and manage your stashes.
 git help stash
